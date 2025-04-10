@@ -1,30 +1,25 @@
 var arr = [
     {
-      userName: "Test",
-      lastName: "Test",
-      email: "test.test@gmail.com"
+        userName:"Test",
+        lastName:"Test",
+        email:"test.test@gmail.com"
     },
     {
-      userName: "Dmitro",
-      lastName: "Porohov",
-      email: "dmitro.porohov@yahoo.com"
+        userName:"Dmitro",
+        lastName:"Porohov",
+        email:"dmitro.porohov@yahoo.com"
     },
     {
-      userName: "Andrii",
-      lastName: "",
-      email: "andrii@mail.ru"
-    },
+        userName: "Brad",
+        lastName: "Zaker",
+        email: "b..z@gmail.com" 
+      },
     {
-      userName: "Bad",
-      lastName: "Guy",
-      email: "bad_guy@outlook.com"
+        userName:"Andrii",
+        lastName:"",
+        email:"andrii@mail.ru"
     },
-    {
-      userName: "Invalid",
-      lastName: "Dot",
-      email: "a..b@gmail.com"
-    }
-  ];
+];
   
   const trustedEmails = arr
     .map(item => item.email)
